@@ -1,0 +1,22 @@
+{
+  "name": "web3-helper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talrasha007/web3-helper.git"
+  },
+  "keywords": [
+    "web3",
+    "ethereum"
+  ],
+  "author": "ttl <talrasha007@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talrasha007/web3-helper/issues"
+  },
+  "homepage": "https://github.com/talrasha007/web3-helper#readme",
+  "dependencies": {
+    "web3": "~0.20.6"
+  }
+}
