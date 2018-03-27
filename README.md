@@ -1,5 +1,4 @@
-#web3-api-wrap
-
+# web3-api-wrap
 Make web3@0.20.x easier to use in browser with wallet plugin such as MetaMask.
 
 ## Usage
