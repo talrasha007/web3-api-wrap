@@ -1,4 +1,5 @@
 #web3-helper
+
 Make web3@0.20.x easier to use in browser with wallet plugin such as MetaMask.
 
 ## Usage
