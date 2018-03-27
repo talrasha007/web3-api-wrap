@@ -3,10 +3,10 @@ Make web3@0.20.x easier to use in browser with wallet plugin such as MetaMask.
 
 ## Usage
 ```js
-const { web3 } = require('web3-helper');
+const { web3 } = require('web3-api-wrap');
 
 async function foo() {
-  console.log(await web3.eth.getBalance('0x123456789abcdefg'));
+  console.log(await web3.eth.getBalance('an address'));
   
   const abi = require('your abi json file');
 
