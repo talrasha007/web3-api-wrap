@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/talrasha007/web3-helper.git"
+    "url": "git+https://github.com/talrasha007/web3-api-wrap.git"
   },
   "keywords": [
     "web3",
