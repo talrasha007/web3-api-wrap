@@ -21,6 +21,7 @@ if (window.web3) {
 
   web3.eth.defaultAccount = window.web3.eth.accounts[0];
 
+  web3.eth.getAccounts = promisify(web3.eth.getAccounts);
   web3.eth.getBalance = promisify(web3.eth.getBalance);
   web3.eth.getBlockNumber = promisify(web3.eth.getBlockNumber);
   web3.eth.getBlock = promisify(web3.eth.getBlock);
