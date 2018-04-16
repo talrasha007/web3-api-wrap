@@ -25,7 +25,9 @@ let web3;
 if (window.web3) {
   web3 = new Web3(window.web3.currentProvider);
 
-  web3.eth.defaultAccount = window.web3.eth.accounts[0];
+  window.web3.eth.getAccounts((err, accounts) => {
+    if (!err) web3.eth.defaultAccount = accounts[0];
+  });
 
   web3.eth.getAccounts = promisify(web3.eth.getAccounts);
   web3.eth.getBalance = promisify(web3.eth.getBalance);
