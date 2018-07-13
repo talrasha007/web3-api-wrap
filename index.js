@@ -1,6 +1,6 @@
 const Web3 = require('web3');
 
-function promisify(fn) {
+var promisify = function(fn) {
   return function () {
     const me = this;
     const args = Array.prototype.slice.call(arguments, 0);
